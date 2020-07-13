@@ -4,55 +4,62 @@
         <meta charset="utf-8"/>
         <meta name="description" content="Page d'accueil de ohmyfood"/>
         <meta name="Site responsive" content="ohmyfood"/>
-        <link rel="stylesheet" href="projet3.css"/>
+        <link rel="stylesheet" type="text/css" href="projet3.css"/>
+        <script src="https://kit.fontawesome.com/3735e84be1.js" crossorigin="anonymous"></script>
         <title>ohmyfood</title>
     </head>
 
     <body>
-    	<header class="size40 bg-color color textAlignCenter">
-    		<h1>ohmyfood</h1>
+    	<header class="bg-color textAlignCenter">
+    		<img id="widthLogo" src="Menus/logoP3.png" alt="logo du projet 3"/>
     	</header>
-    	<section>
-    		<div class="bloc1">
-    			<div class="col1 left">
-	    			<a href="menu1.html" target="_blank">
-	    				<img src="Menus/menu-1b.png" alt="Menu la note enchantée"/>
-	    			</a>
-    			</div>
-    			<div class="col2 left">
-    			<a href="menu2.html" target="_blank">
-    				<img src="Menus/menu-2b.png" alt="Menu le chic à la française"/>
-    			</a>	
-    			</div>
-    		</div>
+    	<section class="marginTop">
+            <div class="widthSection paddingSection">
+                <a  href="menu1.html" target="_blank">
+                    <div class="menu1 size40 bold">
+	                    <img src="icone.png" alt="logo du menu 1"/>
+	                    <h4 class="fontMenu1 colorMenu1 paddingBottom">La note enchantée</h4>
+	                    <span class="colorMenu1">MENU</span> 	
+                    </div>
+                </a>
+            </div>
 
-    		<div class="bloc2">
-    			<div class="col1 left">
-	    			<a href="menu3.html" target="_blank">
-	    				<img src="Menus/menu-3b.png" alt="Menu le délice des papilles"/>
-	    			</a>
-    			</div>
-    			<div class="col2 left">
-	    			<a href="menu4.html" target="_blank">
-	    				<img src="Menus/menu-4b.png" alt="Menu La palette du goût"/>
-	    			</a>
-    			</div>
-    		</div>
-    		<div class="clear"></div>
+            <div class="widthSection paddingSection">
+                <a  href="menu2.html" target="_blank">
+                    <div class="menu2 size30">
+	                    <h5 id="colorMenu2" class="paddingBottom fontMenu2">Le chic à la française</h5>
+	                    <span class="colorMenu2-bis fontMenu2">Menu</span>	
+        		    </div>
+                </a>
+            </div>
+
+    		<div class="widthSection paddingSection">
+                <a href="menu3.html" target="_blank">
+                    <div class="menu3 size40">
+	                    <h4 id="colorMenu3" class="paddingBottom  fontMenu3 titreMenu">Le délice des papilles</h4>
+	                    <span class="colorMenu3-bis fontMenu3 paddingTop">Menu</span>
+        			</div>
+                </a>
+            </div>
+
+            <div class="widthSection paddingSection">
+                <a  href="menu4.html" target="_blank">
+                    <div class="menu4 size40">
+	    	    		<h4 id="colorMenu4" class="paddingBottom  fontMenu4">La palette du goût</h4>
+	                    <span class="colorMenu4-bis fontMenu4">Menu</span>
+        			</div>
+        		</a>
+            </div>
+    		<!--<div class="clear"></div>-->
     	</section>
-    	<aside>
-    		<div class="col3 size30 bg-color color">
-    			Prochainement
-    		</div>	
+    	<aside class="marginBottom marginTop">
+    		<div class="col3 size30 bg-color color">Prochainement</div>	
     	</aside>
     	<div class="clear"></div>
-    	<footer>
-    		<div class="col1 size20 bg-color color left">
-    			Mentions Légales
-    		</div>
-    		<div class="col2 size20 bg-color color left ">
-    			Contactez-nous
-    		</div>
+    	<footer class="marginTop bg-color textAlignCenter">
+    		<a href="mentions-legales.html" target="_blank"><div class="col4 size20 color left textAlignLeft paddingRight-footer marginLeft">Mentions Légales</div></a>
+    		<a href="mailto:contact@ohmyfood.fr"><div class="col5 size20 color right textAlignRight paddingLeft-footer marginRight ">Contactez-nous</div></a>
+    		<div class="clear"></div>
     	</footer>
     </body>
 </html>

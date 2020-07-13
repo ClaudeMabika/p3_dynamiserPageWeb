@@ -1,50 +1,300 @@
+@font-face{
+	font-family:'Devonshire-Regular';
+	src:url('polices/Devonshire-Regular.eot');
+	src:url('polices/Devonshire-Regular.ttf'),
+		url('polices/Devonshire-Regular.svg'),
+		url('polices/Devonshire-Regular.woff');
+	font-weight:normal;
+	font-style:normal;
+}
+
+@font-face {
+    font-family: 'ballparkweiner';
+    src: url('polices/ballpark.eot');
+    src: url('polices/ballpark.eot?#iefix') format('embedded-opentype'),
+         url('polices/ballpark.woff2') format('woff2'),
+         url('polices/ballpark.woff') format('woff'),
+         url('polices/ballpark.ttf') format('truetype'),
+         url('polices/ballpark.svg#ballparkweiner') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face{
+    font-family: 'Dayrom';
+    src: url('polices/dayrom.eot');
+    src: url('polices/dayrom.eot?#iefix') format('embedded-opentype'),
+         url('polices/dayrom.woff') format('woff'),
+         url('polices/dayrom.ttf') format('truetype'),
+         url('polices/dayrom.svg#Dayrom') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
+	font-family:'CroissantOne';
+	src:url('polices/CroissantOne.eot');
+	src:url('polices/CroissantOne.ttf'),
+		url('polices/CroissantOne.svg'),
+		url('polices/CroissantOne.woff');
+	font-weight:normal;
+	font-style:normal;
+}
+
+@font-face{
+	font-family:'Dancing Script';
+	src:url('polices/DancingScript.eot');
+	src:url('polices/DancingScript.ttf'),
+		url('polices/DancingScript.svg'),
+		url('polices/DancingScript.otf'),
+		url('polices/DancingScript.woff');
+	font-weight:normal;
+	font-style:normal;
+}
+
+@font-face{
+	font-family:'Kaushan Script';
+	src:url('polices/KaushanScript.eot');
+	src:url('polices/KaushanScript.ttf'),
+		url('polices/KaushanScript.svg'),
+		url('polices/KaushanScript.otf'),
+		url('polices/KaushanScript.woff');
+	font-weight:normal;
+	font-style:normal;
+}
+/* partie index */
+
+html{
+	height:100%;
+}
+
+body{
+	height:100%;
+	margin:0;
+	padding:0;
+	width:100%;
+}
+/*début header*/
 
 header{
-	display:flex;/*utile pour centrer verticalement*/
 	width:100%;
-	margin:auto;
-	height:120px;
+	height:10%;
+	text-align: center;
+	display:table-cell;/*centrer verticalement une image*/
+	vertical-align: middle;/*centrer verticalement une image*/
 }
 
-header h1{
-	margin:auto;/*indispensable pour centrer verticalement*/
-	text-align:center;
+#widthLogo{
+	width: 100%;
 }
 
+.textAlignCenter{
+	text-align: center;
+}
 
-.bloc1{
+.bg-color{
+	background-color:#008b8b;
+}
+
+/*fin header*/
+
+/*debut section*/
+
+section{
 	display:flex;
-	align-items:center;
-	text-align:center;
+	flex-direction:row;
+	align-items: center;
+	width:100%;
+	min-height: 700px;
+}
+
+.widthSection{
+	width:25%;
+}
+
+.paddingSection{
+	padding:0.5%;
+}
+
+.marginTop{
 	margin-top:5%;
-	margin-bottom: 5%;
 }
 
-.bloc2{
+/*début menu 1: La note enchantée */
+
+.menu1{
 	display:flex;
+	flex-wrap:wrap;
+	flex-direction: column;
+	align-content:center;
 	align-items:center;
+	justify-content: center;
+	font-family:"Arial";
+	background-color: #f9dfdb;
+	height:700px;
+	width:100%;
+	border: solid 1px black;
+	color: #795548;
 	text-align:center;
-	margin-bottom:5%;
 }
 
-section img{
-	width:80%;
+.fontMenu1{
+	font-family:"Devonshire-Regular";
+}
+
+.menu1 img{
+	width:20%;
+	height:10%;
+}
+
+.menu1 h4{
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.colorMenu1{
+	color:#795548;
+}
+
+.titreMenu{
+	padding-bottom:10%;
+}
+
+.size40{
+	font-size:40px;
+}
+
+.paddingBottom{
+	padding-bottom: 10%;
+}
+
+/*fin menu 1: la note enchantée */
+
+/*début menu 2:Le chic à la française*/
+
+.menu2{
+	display:flex;
+	flex-wrap:wrap;
+	flex-direction:column;
+	align-content:center;
+	justify-content: center;
+	font-family:"Trebuchet";
+	background-color: #fff5fe;
+	height:700px;
+	width:100%;
+	border: solid 1px black;
+	text-align:center;
+}
+
+.menu2 h5, .menu3 h4, .menu4 h4{
+	margin-bottom: 0;
+}
+
+#colorMenu2{
+	background: linear-gradient(to right,#d3813c,#ce7d52,#8f5bfd,#6e4ccc);
+	-webkit-background-clip:text;
+	-webkit-text-fill-color:transparent;
+}
+
+.fontMenu2{
+	font-family: "CroissantOne"
+}
+
+.colorMenu2-bis{
+	color:#d3813c;
+}
+
+.paddingTitreMenu{
+	padding:1%;
+}
+
+.size20{
+	font-size:20px;
 }
 
 
+/*Fin menu 2: Le chic à la française */
 
-/*.col1{
-	width:40%;
-	
+/*Début menu 3: Le délice des papilles */
+
+.menu3{
+	display:flex;
+	flex-wrap:wrap;
+	flex-direction: column;
+	align-content:center;
+	align-items:center;
+	justify-content: center;
+	font-family:"Trebuchet";
+	background-color: #edefef;
+	height:700px;
+	width:100%;
+	border: solid 1px black;
+	text-align:center;
 }
 
-.col2{
-	width:40%;
-	text-align:right;
-	
+#colorMenu3{
+	background: linear-gradient(to right,#0427db,#0086ff);
+	-webkit-background-clip:text;
+	-webkit-text-fill-color:transparent;
+}
 
-}*/
+.colorMenu3-bis{
+	color:#0086ff;
+}
 
+.fontMenu3{
+	font-family: "Dancing Script";
+}
+
+.titreMenu{
+	padding:1%;
+}
+
+.paddingTop{
+	padding-top:5%;
+}
+/*Fin menu 3:Le délice des papilles */
+
+/*Début menu 4: La palette du goût */
+
+
+.menu4{
+	display:flex;
+	flex-wrap:wrap;
+	flex-direction: column;
+	align-content:center;
+	justify-content: center;
+	font-family:"Trebuchet";
+	background-color:#fdfffd;
+	height:700px;
+	width:100%;
+	border: solid 1px black;
+	text-align:center;
+}
+
+#colorMenu4{
+	background: linear-gradient(to right,#64b24f,#bbf57f);
+	-webkit-background-clip:text;
+	-webkit-text-fill-color:transparent;
+}
+
+.colorMenu4-bis{
+	color:#64b24f;
+}
+
+.fontMenu4{
+	font-family:"Kaushan Script";
+}
+
+/*Fin menu 4: La palette du goût */
+
+a{
+	text-decoration: none;
+}
+
+/*Fin section*/
+
+/*Début aside */
 
 aside{
 	margin-left:auto;
@@ -59,32 +309,43 @@ aside .col3{
 	padding-right:5%;
 }
 
-
-.size40{
-	font-size:40px;
+.marginBottom{
+	margin-bottom: 5%;
 }
 
 .size30{
 	font-size:30px;
 }
 
-.size20{
-	font-size:20px;
-}
-
-.textAlignCenter{
-	text-align: center;
-}
-
-.bg-color{
-	background-color:#008b8b;
+.size60{
+	font-size:60px;
 }
 
 .color{
 	color:#feca07;
 }
 
-/*.left{
+/*Fin aside */
+
+/*Début footer*/
+
+footer{
+	margin:auto;
+	height:auto;
+	padding:2%;
+	position:sticky;/*Pour afficher le footer même quand on scroll*/
+	left:0;	right:0; bottom:0;
+}
+
+.textAlignLeft{
+	text-align: left;
+}
+
+.textAlignRight{
+	text-align: right;
+}
+
+.left{
 	float:left;
 }
 
@@ -94,10 +355,27 @@ aside .col3{
 
 .clear{
 	clear: both;
-}*/
+}
 
-footer{
-	width:100%;
+.paddingLeft-footer{
+	padding-left:20%;
+}
+
+.paddingRight-footer{
+	padding-right:20%;
+}
+
+.col4 .col5{
+	width:30%;
+}
+
+/*Fin footer */
+
+
+/*.col1{
+	position:relative;
+	top:50%;
+	transform:perspective(1px) translateY(-50%);
 }
 
 .padding{
@@ -106,7 +384,162 @@ footer{
 
 .margin{
 	margin:auto;
+}*/
+
+/* menu1.html */
+	/*Début nav */
+		/* Début section */
+
+#sectionMenu1{
+	font-family:"Trebuchet";
+	/*background:linear-gradient(to bottom, #ffdab9, white);*/
+	background-color: #f9dfdb;
+	margin-top:0;
+	margin-left:5%;
+	margin-right:5%;
+	margin-bottom: 5%;
+	color:#795548;
 }
 
+.logoEntete, .logoEnteteBas{
+	width:10%;
+}
+
+.menu1_note-enchantee{
+	padding-bottom:5%;
+}
+
+
+
+.width{
+	width: 100%;
+}
+
+.entree{
+	width:15%;
+	text-align:center;
+}
+
+.iconeGauche{
+	width:25%;
+	vertical-align: middle;
+}
+
+.iconeDroite{
+	width: 25%;
+	vertical-align: middle;
+}
+
+.paddingTop--entree{
+	padding-top:5%;
+}
+
+.paddingTop--icone{
+	padding-top: 0.25%;
+}
+
+.col1{
+	width:50%;
+}
+
+.col2{
+	width:10%;
+}
+
+.col3{
+	width:100%;
+}
+
+.size15{
+	font-size:15px;
+}
+
+.textAlignJustify{
+	text-align: justify;
+}
+
+.paddingBottom2{
+	padding-bottom:1%;
+}
+
+.paddingTop{
+	padding-top:5%;
+}
+
+
+.paddingTop2{
+	padding-top: 1%;
+}
+
+.marginLeft{
+	margin-left: 10%;
+}
+
+.paddingLeft{
+	padding-left:5%;
+}
+
+.marginRight{
+	margin-right:10%;
+}
+
+
+.paddingLeft2{
+	padding-left:15%;
+}
+
+.paddingRight2{
+	padding-right:15%;
+}
+
+/*Fin menu 1: La note enchantée */
+
+/*Début menu 2: Le chic à la française , menu 3: Le délice des papilles, menu 4: La palette du goût*/
+
+#sectionMenu2{
+	background-color:#fff5fe;
+	margin-top:0;
+	margin-left:5%;
+	margin-right:5%;
+	margin-bottom: 5%;
+}
+
+.gradient{
+	font-size:50px;
+	background: linear-gradient(to right,#d3813c,#ce7d52,#8f5bfd,#6e4ccc);
+	/*background:-webkit-gradient(linear, left top, left bottom, from(#071f91), to(#0086ff));*/
+	-webkit-background-clip:text;
+	-webkit-text-fill-color:transparent;
+}
+
+.colorEntree--menu2{
+	color:#c57428;
+}
+
+.paddingBottom2--menu2{
+	padding-bottom:1%;
+}
+
+.colorPlat--menu2{
+	color:#a56799;
+}
+
+.colorDessert--menu2{
+	color:#6e4ccc;
+}
+
+.paddingRight{
+	padding-right:10%;
+}
+
+span{
+	font-weight:bold;
+}
+
+.paddingRight-bis{
+	padding-right:5%;
+}
+
+/*Fin css projet 3 sans les medias-queries */
 
 
