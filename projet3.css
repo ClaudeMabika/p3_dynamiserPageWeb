@@ -542,4 +542,96 @@ span{
 
 /*Fin css projet 3 sans les medias-queries */
 
+/*Début des médias queries*/
+/*index.html*/
 
+@media(min-width:1271px){
+    .size40{
+        font-size:40px;
+    }
+}
+
+@media(min-width:1208px) and (max-width: 1270px){
+    .menu3 h4, .menu3 span{
+        font-size:30px;
+    }
+
+}
+
+@media(min-width:1040px) and (max-width: 1207px){
+    .menu3 h4, .menu3 span, .menu4 h4, .menu4 span, .menu1 h4, .menu1 span{
+        font-size:25px;
+    }
+
+    .menu2 h5{
+    	font-size:20px;
+    }
+
+}
+
+@media(min-width:711px) and (max-width:1039px){
+	
+	section{
+	display:flex;
+	flex-wrap:wrap;
+	align-items: center;
+	justify-content: center;/*Pour centrer les éléments d'un conteneur flexible*/
+	width:100%;
+	min-height: 700px;
+}
+	.widthSection{
+		width:45%;
+	}
+}
+	 
+
+
+@media (min-width:575px) and (max-width:710px){
+	
+	section{
+	display:flex;
+	flex-direction:column;
+	align-items: center;
+	justify-content: center;/*Pour centrer les éléments d'un conteneur flexible*/
+	width:100%;
+	min-height: 700px;
+	}
+
+	.widthSection{
+		width:80%;
+	}
+
+	.paddingLeft-footer{
+	padding-left:15%;
+	}
+
+	.paddingRight-footer{
+	padding-right:15%;
+	}
+}
+
+@media(max-width: 574px){
+	section{
+	display:flex;
+	flex-direction:column;
+	align-items: center;
+	justify-content: center;/*Pour centrer les éléments d'un conteneur flexible*/
+	width:100%;
+	min-height: 700px;
+	}
+
+	.widthSection{
+		width:80%;
+	}
+
+	.paddingLeft-footer{
+	padding-left:10%;
+	}
+
+	.paddingRight-footer{
+	padding-right:10%;
+	}
+}
+	
+
+  
