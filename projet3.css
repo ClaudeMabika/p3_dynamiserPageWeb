@@ -633,5 +633,248 @@ span{
 	}
 }
 	
+	/*menu 1: la note enchantée (medias-queries)*/
 
-  
+@media (min-width:965px) and (max-width: 1040px){
+	#sectionMenu1 .paddingTop--icone{
+		padding-top:1%;
+	}
+  }
+
+
+@media (min-width:694px) and (max-width: 965px){
+	#sectionMenu1 .paddingTop--icone{
+		padding-top:1%;
+	}
+
+	#sectionMenu1 .col1{
+		font-size: 15px;
+		width:70%;
+	}
+
+	#sectionMenu1 .col2{
+		font-size:15px;
+	}
+  }
+
+  @media (max-width: 693px){
+	#sectionMenu1 .paddingTop--icone{
+		padding-top:1.25%;
+	}
+
+	#sectionMenu1 .col1{
+		font-size: 11px;
+		width:75%;
+	}
+
+	#sectionMenu1 .col2{
+		width:5%;
+		font-size:11px;
+	}
+
+	#sectionMenu1 p{
+		font-size:15px;
+	}
+}
+
+ 	/*menu 2: Le chic à la française (medias queries)*/
+
+ @media (min-width:887px) and (max-width: 1039px){
+	#sectionMenu2 .iconeGauche, #sectionMenu2 .iconeDroite{
+		padding-top:1%;
+	}
+
+}
+
+@media (min-width:687px) and (max-width: 887px){
+	#sectionMenu2 .iconeGauche, #sectionMenu2 .iconeDroite{
+		padding-top:1%;
+	}
+
+	#sectionMenu2 p{
+		font-size:16px;
+	}
+
+	#sectionMenu2 .col1{
+		width:70%;
+	}
+ }
+
+ @media (max-width:686px){
+	#sectionMenu2 .iconeGauche, #sectionMenu2 .iconeDroite{
+		padding-top:1%;
+	}
+
+	#sectionMenu2 p{
+		font-size:12px;
+	}
+
+	#sectionMenu2 .col1{
+		width:70%;
+		font-size:12px;
+	}
+
+	#sectionMenu2 .col2{
+		font-size:12px;
+	}
+
+	.titreMenu2{
+		font-size:25px;
+	}
+ }
+
+ 	/*menu 3: Le délice des papilles*/
+
+ @media (min-width:887px) and (max-width: 1039px){
+	#sectionMenu3 .iconeGauche, #sectionMenu3 .iconeDroite{
+		padding-top:1%;
+	}
+
+ }
+
+ @media (min-width:687px) and (max-width: 887px){
+	#sectionMenu3 .iconeGauche, #sectionMenu3 .iconeDroite{
+		padding-top:1.5%;
+	}
+
+	#sectionMenu3 .col1{
+		font-size: 14px;
+		width:55%;
+	}
+
+	#sectionMenu3 .col2{
+		font-size:14px;
+		width:5%;
+	}
+
+}
+
+@media (max-width:686px){
+	#sectionMenu3 .iconeGauche, #sectionMenu3 .iconeDroite{
+		padding-top:1%;
+	}
+
+	#sectionMenu3 p{
+		font-size:15px;
+	}
+
+	#sectionMenu3 .col1{
+		width:65%;
+		font-size:12px;
+	}
+
+	#sectionMenu3 .col2{
+		width:1%;
+		font-size:12px;
+	}
+
+	#sectionMenu3 .paddingRight{
+		padding-right:8%;
+	}
+
+	#sectionMenu3 .titreMenu{
+		font-size:50px;
+	}
+
+ }
+
+ 	/*menu 4: La palette du goût (medias queries)*/
+
+@media (min-width:937px) and (max-width: 1039px){
+	#sectionMenu4 .iconeGauche, #sectionMenu4 .iconeDroite{
+		padding-top:1%;
+	}
+
+ }
+
+ @media (min-width:736px) and (max-width: 936px){
+	#sectionMenu4 .iconeGauche, #sectionMenu4 .iconeDroite{
+		padding-top:1.5%;
+	}
+
+	#sectionMenu4 .col1{
+		font-size: 15px;
+		width:60%;
+	}
+
+	#sectionMenu4 .col2{
+		font-size:15px;
+		width:5%;
+	}
+
+}
+
+@media (min-width: 547px) and (max-width:735px){
+	#sectionMenu4 .iconeGauche, #sectionMenu4 .iconeDroite{
+		padding-top:2%;
+	}
+
+	#sectionMenu4 p{
+		font-size:18px;
+	}
+
+	#sectionMenu4 .col1{
+		width:65%;
+		font-size:12px;
+	}
+
+	#sectionMenu4 .col2{
+		width:1%;
+		font-size:12px;
+	}
+
+	#sectionMenu4 .paddingRight{
+		padding-right:7%;
+	}
+
+	#sectionMenu4 .titreMenu{
+		font-size:50px;
+	}
+
+ }
+
+
+@media (max-width: 546px){
+	#sectionMenu4 .iconeGauche, #sectionMenu4 .iconeDroite{
+		padding-top:2%;
+	}
+
+	#sectionMenu4 p{
+		font-size:17px;
+	}
+
+	#sectionMenu4 .col1{
+		width:65%;
+		font-size:10.5px;
+	}
+
+	#sectionMenu4 .col2{
+		width:1%;
+		font-size:10.5px;
+	}
+
+	#sectionMenu4 .paddingRight{
+		padding-right:7%;
+	}
+
+	#sectionMenu4 .titreMenu{
+		font-size:40px;
+	}
+
+ }
+
+ /*Fin des medias queries*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
