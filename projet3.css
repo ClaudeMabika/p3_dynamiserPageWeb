@@ -351,6 +351,7 @@ section{
 	font-family:'Chilanka';
 }
 
+
 #colorMenu4{
 	background: linear-gradient(to right,#64b24f,#bbf57f);
 	-webkit-background-clip:text;
@@ -663,6 +664,10 @@ span{
 
 .paddingRight-bis{
 	padding-right:5%;
+}
+
+.laPaletteDuGout span{
+	padding:10px;
 }
 
 /*Fin css projet 3 sans les medias-queries */
