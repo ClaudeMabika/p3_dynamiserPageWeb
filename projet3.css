@@ -260,8 +260,14 @@ nav{
 
 .menu2 h2, .menu3 h2, .menu4 h2{
 	margin-bottom: 0;
-	padding:5px;
+	padding:18px;
 	font-size:30px;
+}
+
+.menu2 h2{
+	margin-bottom: 0;
+	padding:18px;
+	font-size:28px;
 }
 
 #colorMenu2{
@@ -544,10 +550,6 @@ a{
 	width:50px;
 }
 
-/*.menu1_note-enchantee{
-	padding-bottom:5%;
-}*/
-
 .width{
 	width: 100%;
 }
@@ -568,12 +570,10 @@ a{
 }
 
 .paddingTop--entree{
-	/*padding-top:5%;*/
 	padding-top:10px;
 }
 
 .paddingTop--icone{
-	/*padding-top: 0.25%;*/
 	padding-top:10px;
 }
 
@@ -598,15 +598,8 @@ a{
 }
 
 .paddingBottom2{
-	/*padding-bottom:1%;*/
 	padding-bottom: 15px;
 }
-
-/*.paddingTop{
-	/*padding-top:5%;*/
-	/*padding-top:10px;
-}
-*/
 
 .paddingTop2{
 	padding-top: 10px;
@@ -628,14 +621,6 @@ a{
 	margin-right:50px;
 }
 
-/*
-.paddingLeft2{
-	padding-left:15%;
-}
-
-.paddingRight2{
-	padding-right:15%;
-}*/
 
 /*Fin menu 1: La note enchantée */
 
@@ -709,6 +694,22 @@ span{
 
 /*index.html*/
 
+@media all and (min-width: 1211px){
+	.menu2 h2{
+		font-size:28px;
+	}
+}
+
+@media all and (min-width: 1024px) and (max-width: 1211px){
+	.menu2 h2{
+		font-size:23px;
+		padding:17px;
+	}
+
+
+}
+
+
 @media all and (min-width: 1024px){
 	section{
 	display:flex;
@@ -724,7 +725,7 @@ span{
   		font-size: 30px;
   	}
 
-  	.menu2 h2, .menu3 h2, .menu4 h2{
+  	.menu3 h2, .menu4 h2{
   		font-size:25px;
   	}
 }
