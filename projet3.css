@@ -270,7 +270,7 @@ nav{
 	font-size:28px;
 }
 
-#colorMenu2{
+.colorMenu2{
 	background: linear-gradient(to right,#d3813c,#ce7d52,#8f5bfd,#6e4ccc);
 	-webkit-background-clip:text;
 	-webkit-text-fill-color:transparent;
@@ -314,7 +314,7 @@ nav{
 	text-align:center;
 }
 
-#colorMenu3{
+.colorMenu3{
 	background: linear-gradient(to right,#0427db,#0086ff);
 	-webkit-background-clip:text;
 	-webkit-text-fill-color:transparent;
@@ -324,7 +324,7 @@ nav{
 	color:#0086ff;
 }
 
-.fontMenu3{
+#fontMenu3{
 	font-family:"Dancing Script";
 }
 
@@ -362,7 +362,7 @@ nav{
 }
 
 
-#colorMenu4{
+.colorMenu4{
 	background: linear-gradient(to right,#64b24f,#bbf57f);
 	-webkit-background-clip:text;
 	-webkit-text-fill-color:transparent;
@@ -372,7 +372,7 @@ nav{
 	color:#64b24f;
 }
 
-.fontMenu4{
+#fontMenu4{
 	font-family:"Kaushan Script";
 }
 
@@ -688,24 +688,22 @@ span{
 
 /*Fin css projet 3 sans les medias-queries */
 
-/*******************************************/
-		Début des médias queries
-/******************************************/
+/*Début des médias queries*/
 
-/*index.html*/
+	/*index.html*/
 
 @media all and (min-width: 1211px){
 	.menu2 h2{
-		font-size:28px;
+		font-size:20px;
+		padding:20px;
 	}
 }
 
 @media all and (min-width: 1024px) and (max-width: 1211px){
 	.menu2 h2{
-		font-size:23px;
+		font-size:18px;
 		padding:17px;
 	}
-
 
 }
 
@@ -728,6 +726,11 @@ span{
   	.menu3 h2, .menu4 h2{
   		font-size:25px;
   	}
+
+  	.menu2 h2{
+  			font-size:16px;
+  			padding:20px;
+	}
 }
 
 @media all and (min-width: 800px) and (max-width: 1024px){
@@ -746,10 +749,17 @@ span{
 		padding:2%;
 	}
 
-		.menu1 h2, .menu2 h2, .menu3 h2, .menu4 h2{
+		.menu1 h2, .menu3 h2, .menu4 h2{
   			padding-bottom: 20px;
+
   	}
 
+  		.menu2 h2{
+  			font-size:20px;
+  			padding:20px;
+  		}
+
+ 
 	footer .size20{
 		font-size:15px;
 	}
@@ -776,10 +786,16 @@ span{
 			font-size:30px;
 		}
 
-		.menu2 h2, .menu3 h2, .menu4 h2{
+		.menu3 h2, .menu4 h2{
   			padding-bottom: 20px;
   			font-size:25px;
-  	}
+
+  		}
+
+  		.menu2 h2{
+  			font-size:20px;
+  			padding:20px;
+  		}
 
 	footer .size20{
 		font-size:15px;
@@ -807,10 +823,15 @@ span{
 			font-size:30px;
 		}
 
-		.menu2 h2, .menu3 h2, .menu4 h2{
+		.menu3 h2, .menu4 h2{
   			padding-bottom: 20px;
   			font-size:25px;
-  	}
+  		}
+
+  		.menu2 h2{
+  			font-size:20px;
+  			padding:20px;
+  		}
 
 	footer .size20{
 		font-size:15px;
